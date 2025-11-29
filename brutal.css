@@ -58,3 +58,53 @@ margin-left: 10px;
   cursor: pointer;
   font-size: 20px;
 }
+
+
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 599px) {
+#barraPesquisa {
+width: 250px;
+}
+
+
+
+
+.game-section img{
+width: 30%;
+display: flex nowrap;
+
+}
+
+
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+
+
+
+
+.fort1{
+margin-top: 100px;
+
+
+}
+
+.game-section img{
+width: 30%;
+}
+
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {}
+
+
+@media only screen and (max-width: 1200px) and (min-witdth: 900px) {}
