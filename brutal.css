@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: NVIDIA, sans-serif;
+}
+
+.borda {
+  background-color: rgb(57, 57, 57);
+  height: 90px;
+  border: 2px red solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+ display: flex;
+  align-items: center;
+justify-content: center;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.fort1 {
+  margin-top: 90px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h2 {
+  margin-top: 200px;
+}
+
+.game-section p{
+font-size: 30px;
+color: rgb(255, 255, 255);
+
+}
+.game-section{
+
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.imgs{
+width: 15%;
+
+}
+
+img{
+margin-left: 10px;
+}
+
+#barraPesquisa {
+  padding: 8px;
+  width: 550px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  background-color: rgb(41, 41, 41);
+  border-bottom-color: rgb(118, 118, 118);
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
